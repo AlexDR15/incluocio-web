@@ -5036,7 +5036,7 @@
     </script>
     <script>        
         /* Fin celebración 10 anios */
-        document.getElementById("text09_10anios").style = "display: none;";
+        // document.getElementById("text09_10anios").style = "display: none;";
         
         /* Script para establecer fondo y logo aleatoriamente */
         
@@ -5046,7 +5046,7 @@
         if (randomBck < 10) { bckImgUrl = "assets/imagenes/fotos/foto0" + randomBck + ".jpg" }
         const mainLogoArr10anios = ["NO_LOGO", "logo_10anios.png", "logo_10anios_confeti.png", "logo_10anios_fiesta.png"];
         const mainLogoArr = ["NO_LOGO", "logo.png"];
-        const mainLogo = "assets/imagenes/" + mainLogoArr[Math.floor((Math.random() * (mainLogoArr.length - 1)) + 1) ]
+        const mainLogo = "assets/imagenes/" + mainLogoArr10anios[Math.floor((Math.random() * (mainLogoArr10anios.length - 1)) + 1) ]
         
         var UID = {
             _current: 0,
